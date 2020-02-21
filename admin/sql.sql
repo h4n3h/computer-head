@@ -1,0 +1,8 @@
+CREATE TABLE faces(
+	id int(1) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	atual VARCHAR(200)
+);
+
+ALTER TABLE poemas ADD COLUMN ativo int(1);
+ALTER TABLE poemas ADD COLUMN autor int(1);
+ALTER TABLE poemas ADD COLUMN titulo VARCHAR(200);
